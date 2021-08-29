@@ -1,10 +1,11 @@
 package com.csmithswim;
 
-class Engine {
-    public String type;
+public class Engine {
+    String name;
+    private int fuelTank;
 
-    Engine(String type) {
-        this.type = type;
+    Engine(String name, int fuelTank) {
+        this.name = name;
+        this.fuelTank = fuelTank;
     }
-
 }
